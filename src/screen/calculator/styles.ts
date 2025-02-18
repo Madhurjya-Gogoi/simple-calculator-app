@@ -23,6 +23,10 @@ export const styles = StyleSheet.create({
   buttonsContainer: {
     paddingHorizontal: 10,
   },
+  buttonsContainerLandscape: {
+    flexDirection: 'row-reverse',
+    flexWrap: 'wrap',
+  },
   row: {
     flexDirection: 'row',
     justifyContent: 'space-between',
